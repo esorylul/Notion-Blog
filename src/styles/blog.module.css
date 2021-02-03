@@ -93,7 +93,6 @@
 
 .postPreview h3,
 .post h1 {
-  text-align: center;
 }
 
 .post h1 {
@@ -146,6 +145,11 @@
   max-width: 600px;
   margin: 0 auto;
   padding-top: 220px;
+  font-family: 'Noto Serif SC', serif;
+}
+
+.postName {
+  text-align: center;
 }
 
 .post :global(hr) {
