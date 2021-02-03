@@ -5,9 +5,9 @@ import { useRouter } from 'next/router'
 import styles from '../styles/header.module.css'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
-  { label: '主页', page: '/' },
-  { label: '博客', page: '/blog' },
-  { label: '关于', page: '/contact' },
+  { label: '主    页', page: '/' },
+  { label: '博    客', page: '/blog' },
+  { label: '关    于', page: '/contact' },
   //  { label: '源码', link: 'https://github.com/ijjk/notion-blog' },
 ]
 
@@ -31,7 +31,7 @@ export default ({ titlePre = '' }) => {
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
       <ul>
-        <h2>LulyRose</h2>
+        <h2>蔷薇</h2>
         {navItems.map(({ label, page, link }) => (
           <li key={label}>
             {page ? (
