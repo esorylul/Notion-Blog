@@ -31,7 +31,7 @@ export default ({ titlePre = '' }) => {
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
       <ul>
-        <h2>蔷薇</h2>
+        <img src="/Blog.png" alt="avatar with LulyRose" height={30} />
         {navItems.map(({ label, page, link }) => (
           <li key={label}>
             {page ? (

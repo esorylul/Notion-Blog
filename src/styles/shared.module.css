@@ -1,14 +1,39 @@
 .layout {
-  padding-top: 100px;
+  display: block;
+  padding-top: 220px;
+  min-height: 100vh;
+  width: 600px;
+  margin: auto;
 }
 .layout img {
-  margin: auto;
-  max-width: 98%;
   display: block;
+  width: 6%;
   height: auto;
+  margin: 0 auto;
 }
 
 .layout h1,
 .layout h2 {
   text-align: center;
+}
+
+.layout p {
+  margin-bottom: 180px;
+}
+
+.homepage {
+  display: block;
+  width: 600px;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.homepage p {
+  display: block;
+  padding-top: 180px;
+  width: 400px;
+  margin: auto;
+  font-size: 12px;
+  font-family: 'Noto Serif SC', serif;
+  text-indent: 2em;
 }

@@ -11,17 +11,17 @@ import Envelope from '../components/svgs/envelope'
 const contacts = [
   {
     Comp: Twitter,
-    alt: 'twitter icon',
+    alt: '推  特',
     link: 'https://twitter.com/esorylul',
   },
   {
     Comp: GitHub,
-    alt: 'github icon',
+    alt: '仓  库',
     link: 'https://github.com/esorylul',
   },
   {
     Comp: Envelope,
-    alt: 'envelope icon',
+    alt: '邮  箱',
     link: 'mailto:esorylul@outlook.com?subject=LulyRose',
   },
 ]
@@ -31,16 +31,18 @@ export default () => (
     <Header titlePre="Contact" />
     <div className={sharedStyles.layout}>
       <div className={contactStyles.avatar}>
-        <img src="/avatar.jpg" alt="avatar with LulyRose" height={60} />
+        <img src="/BlogTwo.png" alt="avatar with LulyRose" />
       </div>
 
-      <h1 style={{ marginTop: 0 }}>LulyRose</h1>
+      <p style={{ marginTop: 180 }} className={contactStyles.avatarSome}>
+        我从远处来，带心去远方
+      </p>
 
       <div className={contactStyles.links}>
-        {contacts.map(({ Comp, link, alt }) => {
+        {contacts.map(({ Comp, alt, link }) => {
           return (
-            <ExtLink key={link} href={link} aria-label={alt}>
-              <Comp height={32} />
+            <ExtLink key={link} href={link}>
+              {alt}
             </ExtLink>
           )
         })}

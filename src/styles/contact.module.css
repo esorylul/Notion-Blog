@@ -6,25 +6,27 @@
 }
 
 .links a {
-  width: 48px;
-  height: 48px;
-  margin: 0 10px;
+  margin: 0 20px;
   display: inline-block;
-  transition: opacity 200ms ease;
+  font-size: 12px;
+  font-family: 'Noto Serif SC', serif;
+  color: black;
 }
 
 .links a:hover {
-  opacity: 0.6;
+  padding-bottom: 5px;
+  border-bottom: black solid 1px;
+}
+
+.avatarSome {
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Noto Serif SC', serif;
 }
 
 .avatar {
   display: block;
   text-align: center;
-  margin: 1rem 0;
-}
-
-.avatar img {
-  height: 120px;
 }
 
 .name {
