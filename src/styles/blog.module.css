@@ -52,12 +52,6 @@
   font-size: 20px;
 }
 
-.titleContainer a:hover {
-  padding-bottom: 5px;
-  border-bottom: black solid 1px;
-  color: black;
-}
-
 .draftBadge {
   border-radius: 16px;
   background-color: black;
@@ -95,7 +89,6 @@
 
 .postPreview h3,
 .post h1 {
-  margin-bottom: 0;
   text-align: center;
 }
 
