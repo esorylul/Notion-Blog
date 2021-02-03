@@ -99,6 +99,23 @@
   margin-top: 0;
 }
 
+.postName {
+  font-size: 24px;
+  font-weight: lighter;
+  margin-bottom: 66px;
+}
+
+.posted {
+  text-align: right;
+  line-height: 2em;
+  margin-bottom: 35px;
+}
+
+.authors {
+  text-align: right;
+  line-height: 2em;
+}
+
 .post :global(h2),
 .post :global(h3) {
   margin: 3rem 0 1.5rem 0;
