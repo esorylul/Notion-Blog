@@ -30,8 +30,8 @@ export default ({ titlePre = '' }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
+      <img src="/Blog.png" alt="avatar with LulyRose" height={30} />
       <ul>
-        <img src="/Blog.png" alt="avatar with LulyRose" height={30} />
         {navItems.map(({ label, page, link }) => (
           <li key={label}>
             {page ? (
