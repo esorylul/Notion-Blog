@@ -52,6 +52,11 @@
   font-size: 20px;
 }
 
+.titleContainer a:hover {
+  border-left: black solid 2px;
+  padding-left: 10px;
+}
+
 .draftBadge {
   border-radius: 16px;
   background-color: black;
@@ -73,7 +78,6 @@
 .postPreview {
   max-width: 600px;
   margin: 10px auto;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
   font-family: 'Noto Serif SC', serif;
   font-weight: lighter;
   font-size: 14px;
@@ -139,7 +143,7 @@
 }
 
 .post {
-  max-width: calc(600px + 10%);
+  max-width: 600px;
   margin: 0 auto;
   padding-top: 220px;
 }
