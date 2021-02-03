@@ -62,6 +62,10 @@
   text-align: center;
 }
 
+.blogimg {
+  margin-bottom: 180px;
+}
+
 .postPreview {
   max-width: 600px;
   margin: 10px auto;
