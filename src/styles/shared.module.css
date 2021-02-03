@@ -7,7 +7,6 @@
 }
 .layout img {
   display: block;
-  width: 6%;
   height: auto;
   margin: 0 auto;
 }
@@ -29,7 +28,7 @@
   padding-top: 180px;
   width: 400px;
   margin: auto;
-  font-size: 12px;
+  font-size: 16px;
   font-family: 'Noto Serif SC', serif;
   text-indent: 2em;
 }
