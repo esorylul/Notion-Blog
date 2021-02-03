@@ -89,10 +89,6 @@
   justify-content: space-between;
 }
 
-.posted {
-  margin: auto 0 !important;
-}
-
 .postPreview:last-child {
   border-bottom: none;
 }
@@ -146,7 +142,7 @@
 }
 
 .postPreview :global(.posted) {
-  margin-bottom: 0.5em;
+  margin: auto 0 !important;
 }
 
 .post {
