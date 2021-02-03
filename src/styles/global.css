@@ -252,11 +252,13 @@ figure {
 }
 
 a {
-  color: #0070f3;
+  color: #555;
   text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: #555 solid 1px;
 }
 a:hover {
-  color: #3291ff;
+  border-bottom: none;
 }
 
 .links {
@@ -309,7 +311,7 @@ p {
   color: #555;
   font-weight: 400;
   font-size: 0.94rem;
-  line-height: 1.7;
+  line-height: 2;
 }
 pre {
   white-space: pre;
