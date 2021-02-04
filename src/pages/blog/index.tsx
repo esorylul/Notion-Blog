@@ -64,7 +64,7 @@ export default ({ posts = [], preview }) => {
       )}
       <div className={`${sharedStyles.layout} ${blogStyles.blogIndex}`}>
         <img
-          src="/BlogThree.png"
+          src="https://shengqiangme.oss-cn-shanghai.aliyuncs.com/imgs/BlogThree.png"
           alt="avatar with LulyRose"
           height={30}
           className={blogStyles.blogimg}

@@ -31,7 +31,7 @@ export default () => (
     <Header titlePre="Contact" />
     <div className={sharedStyles.layout}>
       <div className={contactStyles.avatar}>
-        <img src="/BlogTwo.png" alt="avatar with LulyRose" />
+        <img src="https://shengqiangme.oss-cn-shanghai.aliyuncs.com/imgs/BlogTwo.png" alt="avatar with LulyRose" />
       </div>
 
       <p className={contactStyles.avatarSome}>我从远处来，带心去远方</p>
