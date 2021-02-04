@@ -392,6 +392,9 @@ blockquote {
 	header {
 		display: none;
 	}
+	footer {
+		display: none;
+	}
 }
 
 @page {
