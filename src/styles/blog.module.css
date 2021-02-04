@@ -91,6 +91,20 @@
   border-bottom: none;
 }
 
+.post a {
+  padding-bottom: 4px;
+  border-bottom: 1px solid black;
+}
+
+.post a:hover {
+  border-bottom: none;
+}
+
+.post ul {
+  font-weight: lighter;
+  line-height: 2em;
+}
+
 .postPreview h3,
 .post h1 {
 }

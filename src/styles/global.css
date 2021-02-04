@@ -254,11 +254,6 @@ figure {
 a {
   color: #555;
   text-decoration: none;
-  padding-bottom: 4px;
-  border-bottom: #555 solid 1px;
-}
-a:hover {
-  border-bottom: none;
 }
 
 .links {
@@ -379,4 +374,14 @@ footer span:nth-child(3) a {
 
 #__next {
   min-height: 100vh;
+}
+
+blockquote {
+  font-size: 14px;
+  line-height: 2em;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+  text-align: center;
 }
