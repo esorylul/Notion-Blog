@@ -34,9 +34,7 @@ export default () => (
         <img src="/BlogTwo.png" alt="avatar with LulyRose" />
       </div>
 
-      <p style={{ marginTop: 180 }} className={contactStyles.avatarSome}>
-        我从远处来，带心去远方
-      </p>
+      <p className={contactStyles.avatarSome}>我从远处来，带心去远方</p>
 
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, alt, link }) => {
