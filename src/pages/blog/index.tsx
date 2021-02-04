@@ -85,9 +85,6 @@ export default ({ posts = [], preview }) => {
                   </div>
                 </Link>
               </h3>
-              {post.Authors.length > 0 && (
-                <div className="authors">By: {post.Authors.join(' ')}</div>
-              )}
               {post.Date && (
                 <div className="posted">{getDateStr(post.Date)}</div>
               )}
