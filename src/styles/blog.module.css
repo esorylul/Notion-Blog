@@ -203,3 +203,9 @@
     display: none;
   }
 }
+
+@media print {
+	.post {
+		padding: 0 !important;
+	}
+}
