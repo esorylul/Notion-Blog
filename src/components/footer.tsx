@@ -2,6 +2,10 @@ import ExtLink from './ext-link'
 
 export default () => (
   <>
-    <footer></footer>
+    <footer>
+      <span>
+        Power by <a href="https://github.com/ijjk/notion-blog">Notion-Blog</a>
+      </span>
+    </footer>
   </>
 )

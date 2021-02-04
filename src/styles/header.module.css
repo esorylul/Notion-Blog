@@ -57,4 +57,10 @@
     width: 100%;
     margin: 0 30px;
   }
+  .header ul li {
+    padding: 0;
+  }
+  .header :global(a) {
+    padding: 0 10px;
+  }
 }
