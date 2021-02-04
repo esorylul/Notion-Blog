@@ -37,15 +37,6 @@
   color: inherit;
 }
 
-@media print {
-	header {
-		display: none;
-	}
-	footer {
-		display: none;
-	}
-}
-
 @page {
 	size: A4 protrait;
 	margin: 2.54cm 3.17cm 2.54cm 3.17cm;

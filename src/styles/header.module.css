@@ -66,10 +66,7 @@
 }
 
 @media print {
-	header {
-		display: none;
-	}
-	footer {
+	.header {
 		display: none;
 	}
 }
