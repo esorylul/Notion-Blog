@@ -4,7 +4,8 @@ export default () => (
   <>
     <footer>
       <span>
-        Power by <a href="https://github.com/ijjk/notion-blog">Notion-Blog</a>
+        Power by <img src="/avatar.png" alt="notion" />
+        <a href="https://github.com/ijjk/notion-blog">Notion-Blog</a>
       </span>
     </footer>
   </>
