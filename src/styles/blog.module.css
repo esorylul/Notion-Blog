@@ -111,10 +111,23 @@
 
 .post h1 {
   margin-top: 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.post h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: black;
+}
+
+.post h3 {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .postName {
-  /*font-size: 24px;*/
+  font-size: 36px !important;
   font-weight: 600;
   margin-bottom: 50px;
 }
@@ -203,6 +216,22 @@
   }
   .postPreview :global(.posted) {
     display: none;
+  }
+  .postName {
+    font-size: 1.5rem !important;
+    font-weight: lighter;
+  }
+  .authors {
+    font-size: 1rem;
+  }
+  .post h1 {
+    font-size: 24px;
+  }
+  .post h2 {
+    font-size: 22px;
+  }
+  .post h3 {
+    font-size: 20px;
   }
 }
 
