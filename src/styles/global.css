@@ -304,8 +304,8 @@ h2 {
 
 p {
   color: #555;
-  font-weight: 400;
-  font-size: 0.94rem;
+  font-weight: lighter;
+  font-size: 1.2rem;
   line-height: 2;
 }
 pre {
@@ -317,7 +317,7 @@ pre :global(code) {
 }
 
 code {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   background: #f1f1f1;
   padding: 0.2rem;
   border-radius: var(--radius);
@@ -379,7 +379,7 @@ footer span:nth-child(3) a {
 }
 
 blockquote {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 2em;
   margin-block-start: 10px;
   margin-block-end: 10px;
@@ -389,15 +389,15 @@ blockquote {
 }
 
 @media print {
-	header {
-		display: none;
-	}
-	footer {
-		display: none;
-	}
+  header {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
 }
 
 @page {
-	size: A4 protrait;
-	margin: 2.54cm 3.17cm 2.54cm 3.17cm;
+  size: A4 protrait;
+  margin: 2.54cm 3.17cm 2.54cm 3.17cm;
 }

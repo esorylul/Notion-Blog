@@ -114,9 +114,9 @@
 }
 
 .postName {
-  font-size: 24px;
-  font-weight: lighter;
-  margin-bottom: 66px;
+  /*font-size: 24px;*/
+  font-weight: 600;
+  margin-bottom: 50px;
 }
 
 .posted {
@@ -126,8 +126,10 @@
 }
 
 .authors {
-  text-align: right;
+  text-align: center;
   line-height: 2em;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
 }
 
 .post :global(h2),
@@ -172,7 +174,7 @@
 }
 
 .post {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 220px 30px 30px 30px;
   font-family: 'Noto Serif SC', serif;
@@ -197,7 +199,7 @@
     text-align: center;
   }
   .titleContainer a {
-    font-size: 16px;
+    font-size: 18px;
   }
   .postPreview :global(.posted) {
     display: none;
@@ -205,7 +207,7 @@
 }
 
 @media print {
-	.post {
-		padding: 0 !important;
-	}
+  .post {
+    padding: 0 !important;
+  }
 }
